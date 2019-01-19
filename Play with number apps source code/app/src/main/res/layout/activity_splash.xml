@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashActivity"
+    android:background="@drawable/cartoon123"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/motu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/motup"
+
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:progressTint="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:progressBackgroundTint="@color/colorPrimaryDark"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed By Eyakub"
+        android:layout_marginTop="190dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+
+
+
+
+</LinearLayout>
